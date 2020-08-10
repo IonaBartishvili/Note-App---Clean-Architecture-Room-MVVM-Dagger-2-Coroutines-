@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_margin="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="15dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            tools:text="How to make You Personal brand stand out Online"
+            android:maxWidth="150dp"
+            android:textColor="@color/colorFontDark"
+            android:fontFamily="@font/source_sans_pro_semibold"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            tools:text="May 21, 2020"
+            android:maxWidth="150dp"
+            android:textColor="@color/colorFontLightGrey"
+            android:fontFamily="@font/source_sans_pro_semibold"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
